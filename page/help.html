@@ -11,6 +11,11 @@
 
 <body>
     <h6 class="H1">USER HELPING</h6>
+    <div  data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
+    <h6  class="title">Trust the process. Your time is coming. Just do the work and the results will handle themselves.</h6>
+    </div>
     <div class="img" data-aos="zoom-in">
         <img src="../image/time alert.jpg" alt="" height="140px" width="300px">
 
@@ -66,37 +71,35 @@
             </div>
             <!-- fifth -->
             <div class="faq-item">
-                <div class="btn" onclick="toggleAnswer(this)">
-                    <span> ● How are reminders helpful?</span>
+                <div class="faq-question" onclick="toggleAnswer(this)">
+                    <span> ● What are the benefits of pill reminder?</span>
                     <span class="plus-icon">+</span>
                 </div>
                 <div class="faq-answer">
-                    less than 3 hours for the minipill and less than 24 hours for combo pills.
+                    <p> i.Improved Medication Adherence</p>
+                       ii.Better Health Outcomes .
+                    <p>iii.convenience</p> 
+
+
                 </div>
-            </div> 
-
-
-
-
-           
+            </div>
         </div>
-    </div>
     <script>
-        // function toggleAnswer(element) {
-        //     const btn = document.getElementById('toggleAnswer');
-        //     const icon = document.getElementById('.plus-icon');
-        //     // const answer = element.nextElementSibling;
-        //     // const icon = element.querySelector('.plus-icon');
+        function toggleAnswer(element) {
+        // const btn = document.getElementById('toggleAnswer');
+        // const icon = document.getElementById('.plus-icon');
+        const answer = element.nextElementSibling;
+        const icon = element.querySelector('.plus-icon');
 
-        //     if (answer.style.display === "block") {
-        //         answer.style.display = "none";
-        //         icon.textContent = "+";
+     if (answer.style.display === "block") {
+        answer.style.display = "none";
+        icon.textContent = "+";
 
-        //     } else {
-        //         answer.style.display = "block";
-        //         icon.textContent = "-";
-        //     }
-        // }
+          } else {
+               answer.style.display = "block";
+              icon.textContent = "-";
+        }
+    }
 
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
