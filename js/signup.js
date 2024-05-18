@@ -1,30 +1,55 @@
-// localStorage.clear()
+// localStorage.clear()    
 
-function sub(){
-let a=document.getElementById("fnmae").value
-localStorage.setItem("fname", `${a}`)
+function sub() {
+  let j = document.getElementById("pass").value;
+  let k = document.getElementById("cpass").value;
 
-let b=document.getElementById("lnmae").value
-localStorage.setItem("lname", `${b}`)
+  if (k == j) {
+    let a = document.getElementById("fnmae").value;
+    localStorage.setItem("fname", `${a}`);
 
-let c=document.getElementById("email").value
-localStorage.setItem("email", `${c}`)
+    let b = document.getElementById("lnmae").value;
+    localStorage.setItem("lname", `${b}`);
 
-let d=document.getElementById("phone").value
-localStorage.setItem("phone", `${d}`)
+    let c = document.getElementById("email").value;
+    localStorage.setItem("email", `${c}`);
 
-let e=document.getElementById("address").value
-localStorage.setItem("address", `${e}`)
+    let d = document.getElementById("phone").value;
+    localStorage.setItem("phone", `${d}`);
 
-let f=document.getElementById("city").value
-localStorage.setItem("city", `${f}`)
+    let e = document.getElementById("address").value;
+    localStorage.setItem("address", `${e}`);
 
-let g=document.getElementById("state").value
-localStorage.setItem("state", `${g}`)
+    let f = document.getElementById("city").value;
+    localStorage.setItem("city", `${f}`);
 
-let h=document.getElementById("pin").value
-localStorage.setItem("pin-code", `${h}`)
+    let g = document.getElementById("state").value;
+    localStorage.setItem("state", `${g}`);
 
-let i=document.getElementById("pic").value
-localStorage.setItem("pic", `${i}`)
+    let h = document.getElementById("pin").value;
+    localStorage.setItem("pin-code", `${h}`);
+
+    let i = document.getElementById("pic").value;
+    localStorage.setItem("pic", `${i}`);
+
+    localStorage.setItem("pass", `${j}`);
+
+    localStorage.setItem("conpass", `${k}`);
+  } else {
+    alert("Enter correct password");
+    reset();
+  }
+}
+
+function reset() {
+  document.getElementById("fnmae").value = ` `;
+  document.getElementById("lnmae").value = ` `;
+  document.getElementById("email").value = ` `;
+  document.getElementById("phone").value = ` `;
+  document.getElementById("address").value = ` `;
+  document.getElementById("city").value = ` `;
+  document.getElementById("state").value = ` `;
+  document.getElementById("pin").value = ` `;
+  document.getElementById("pic").value = ` `;
+  document.getElementById("pass").value = ` `;
 }
