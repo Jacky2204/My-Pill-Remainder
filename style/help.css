@@ -7,10 +7,14 @@ body {
     color:black;
     background: url('../image/medicine.jpg') no-repeat center center fixed;
     background-size: cover;
+    /* opacity: 0.5; */
+  
 }
 .faq-container {
     max-width: 800px;
     margin: 50px auto; 
+    font-size: 40px;
+    font-family: sans-serif;
     /* background-color: rgba(46, 44, 44, 0.8); */
     padding: 20px;
     border-radius: 10px; 
@@ -26,9 +30,9 @@ h1 {
     margin-bottom: 20px;
     /* Add margin to create space between items */
 }
-
 .faq-question {
     display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: space-between;
     cursor: pointer;
     font-size: 18px;
@@ -36,6 +40,7 @@ h1 {
 
 .faq-answer {
     display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px 0;
     font-size: 16px;
 }
@@ -58,9 +63,11 @@ h1 {
     cursor: pointer;
 }
 .title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     height: 100px;
     width: 700px;
     text-align: center;
-    margin-left: 220px;
+    margin-left: 250px;
+    margin-top: 10px;
 }
