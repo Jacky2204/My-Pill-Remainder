@@ -3,20 +3,21 @@ body {
     font-family: Arial, sans-serif;
     background-color: #100f0f78;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
     margin: 0;
-    /* background: url('bacground.jpg') no-repeat center center fixed; 
-    background-size: cover;  */
+    /* margin-bottom: 19px; */
+    background: url('bacground.jpg') no-repeat center center fixed; 
+    background-size: cover;  
     color:black;
     background: url('../image/backgroundimage.jpg') no-repeat center center fixed;
-    background-size: cover;
-    overflow: auto;
+    background-size: cover; 
+    /* overflow: auto; */
 }
     
 .container {
-    background-color: rgba(53, 20, 219, 0.403);
+    background-color: rgba(16, 120, 181, 0.46);
     /* text-align: center; */
     padding: 20px;
     border-radius: 8px;
@@ -33,7 +34,7 @@ h2 {
     color: #0a0101;
 }
 
-.form-group {
+.form{
     margin-bottom: 15px;
     
 }
@@ -54,20 +55,20 @@ input[type="time"] {
     border-radius: 4px;
 }
 
-button {
+.btn {
     width: 100%;
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #60cdfc;
+    background-color: #60cdfc69;
     color: #e9f4f5;
     font-size: 16px;
     cursor: pointer;
 }
+.btn:hover {
+    background: #26384ca2;
+}
 
-/* button:hover {
-    background-color: #4cae4c49;
-} */
 .main {
     display: flex;
     justify-content: space-between;

@@ -8,38 +8,42 @@
 </head>
 <body>
     <script src="../js/info.js"></script>
-    <div  class="container" data-aos="zoom-in" >
-        <h2>Pill Reminder Register Form</h2>
-        <form action="/submit" method="post">
+    <div class="container" data-aos="zoom-in" >
+        <center><h2>Pill Reminder Register Form</h2></center>   
+        <form action="" method="post">
             <div class="form-group">
                 <label for="name">UserName</label> 
-                <input type="text" name="UserName" required>
+                <input type="text" id="UserName" required>
             </div>
             <div class="form-group">
                 <label for="pill-name">Pill Name</label> 
-                <input type="text"  name="pill-name" required>
+                <input type="text"  id="PillName" required>
             </div>
             <div class="form-group">
+                
                 <label for="dosage">Dosage</label> 
-                <input type="text" name="dosage" required>
+                <input type="text" id="Dosage" required>
             </div>
             <div class="main">
             <div class="form-group1">
                 <label for="start-date">Start Date</label> 
-                <input type="date" id="start-date" name="start-date" class="form">
+                <input type="date" id="Start-Date" name="start-date" class="form">
             </div>
             <div class="form-group">
                 <label for="end-date">End Date</label>
-                <input type="date" id="end-date" name="end-date" class="form1">
+                <input type="date" id="End-Date" name="end-date" class="form1">
             </div>
             </div>
             <div class="form-group">
                 <label for="time">Remainder Time set</label>
-                <input type="time" id="time" name="time" required>
-            </div>
-            <button type="submit">Register</button>
+                <input type="time" id="Time" required>
+            </div><br>
+
+            <!-- <button type="submit">Register</button> -->
+            <input type="submit" value="Submit" class="btn" onclick="btn()">
+
         </form>
+        <div id="output"></div>
     </div>
-  
-</body>
+  </body>
 </html>
