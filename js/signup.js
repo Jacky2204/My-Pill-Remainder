@@ -1,4 +1,4 @@
-// localStorage.clear()    
+localStorage.clear()    
 
 function sub() {
   let j = document.getElementById("pass").value;
@@ -35,6 +35,9 @@ function sub() {
     localStorage.setItem("pass", `${j}`);
 
     localStorage.setItem("conpass", `${k}`);
+
+    
+
   } else {
     alert("Enter correct password");
     reset();
