@@ -2,11 +2,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
-
     background: url('./../image/medicine.jpg') no-repeat center center fixed;
     background-size: cover;
-    
 }
 
 @media screen and (max-width: 950px) {
@@ -48,9 +45,6 @@ h1 {
     font-size: 32px;
     line-height: 36px;
     text-align: center;
-  
-    
-    
 }
 
 .box {
@@ -58,9 +52,9 @@ h1 {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.559);
+    background-color: rgba(255, 255, 255, 0.26);
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: center;
 }
@@ -95,6 +89,7 @@ input {
     width: 250px;
     height: 30px;
     border-radius: 5px;
+    background-color: rgba(0, 255, 255, 0);
     /* border: 2px solid rgba(0, 128, 0, 0.393); */
 }
 
