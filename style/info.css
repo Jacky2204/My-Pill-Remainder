@@ -1,95 +1,68 @@
-
 /* css */
 body {
     font-family: Arial, sans-serif;
-    background-color: rgba(11, 120, 163, 0.356);
-    display: flex; 
-    justify-content: center;  
-    align-items: center; 
-    height: 100vh; 
-    margin: 0;
-    padding: 0;
-    /* margin-bottom: 19px; */
-    background: url('bacground.jpg') ; 
+    margin: 20px; 
+    background: url('bacground.jpg') no-repeat center center fixed ; 
     background-size: cover;    
     color:black;
     background: url('../image/backgroundimage.jpg') no-repeat center center fixed;
     background-size: cover; 
-    overflow-x: scroll;
+ } 
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
-
-    
-.container {
-    background-color: rgba(16, 120, 181, 0.46);
-    /* text-align: center;  */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 700px;
-    margin-top: 150px;
-    overflow: auto;
-    margin-right: 100px;
-    
-}
-
-
 h2 {
-    margin-bottom: 20px;
-    color: #0a0101;
+    color: #333;
 }
-
-.form{
-    margin-bottom: 15px;
-    
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px #aaa;
 }
-
 label {
     display: block;
-    margin-bottom: 5px;
-    color: #121111;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
-
 input[type="text"],
-input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
 input[type="time"] {
     width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
 }
-
-.btn {
+select {
     width: 100%;
     padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+input[type="button"] {
+    background-color: #62a8ea;
+    color: white;
+    padding: 10px 20px;
     border: none;
-    border-radius: 4px;
-    background-color: #60cdfc69;
-    color: #e9f4f5;
-    font-size: 16px;
+    border-radius: 5px;
     cursor: pointer;
 }
-.btn:hover {
-    background: #26384ca2;
+input[type="button"]:hover {
+    background-color: #0e49bf;
 }
-
-.main {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    /* height: 30px; */
-    /* margin-left: 10px; */
-    
+.form-group{
+    margin-right: 10px;
 }
-.form{
-    height: 30px;
-    width: 260px;
-    border: 1px solid black;
-    border-radius: 4px;
-}
-.form1{
-    height: 30px;
-    width: 260px;
-    border: 1px solid black;
-    border-radius: 4px;
+.form-group1{
+    width:  610px;
 }

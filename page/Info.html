@@ -1,76 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pill Reminder</title>
+    <title>Medication Reminder Form</title>
     <link rel="stylesheet" href="../style/info.css">
-
 </head>
 
 <body>
+    <center>
+        <h2>Medication Reminder Form</h2>
+    </center>
+    <form id="medicationForm">
+        <div class="form-group">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
 
-    <!-- navbar -->
-    <!-- <div class="menu-bar">
-        <h1 class="logo">Pill<span>Reminder.</span></h1>
-        <ul>
-          <li><a href="./home.html">Home</a></li>
-          <li><a href="./Info.html">Info</a></li>
-          <li><a href="./profile.html">Profile</a>
-          </li>
-          <li><a href="./help.html">Help</a></li>
-          <li><a href="./signin.html">Sign In</a></li>
-    
-        </ul>
-      </div> -->
-    <div class="container">
-        <h1>Registration and Pill Reminder Form</h1>
 
-        <form id="registrationForm">
-            <h2>Register</h2>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
 
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div><br>
-            <button type="submit" class="btn">Register</button>
-        </form>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
 
-        <form id="pillForm" style="display:none;">
-            <h2>Set Pill Reminder</h2>
-            <label for="pillName">Pill Name:</label>
-            <input type="text" id="pillName" name="pillName" required>
-
-            <div class="from-group">
-                <label for="dosage">Dosage:</label>
-                <input type="text" id="dosage" name="dosage" required>
+            <div class="form-group1">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
             </div>
+            
 
-            <div class="main">
-                <div class="from-group1">
-                    <label for="startDate">Start Date:</label>
-                    <input type="date" id="startDate" name="startDate" class="form">
-                </div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
 
-                <div class="from-group">
-                    <label for="endDate">End Date:</label>
-                    <input type="date" id="endDate" name="endDate" class="form1" required>
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="reminderTime">Reminder Time:</label>
-                <input type="time" id="reminderTime" name="reminderTime">
-            </div><br>
-            <button type="submit" class="btn">Set Reminder</button>
-        </form>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
 
-        <div id="output"></div>
-    </div>
-<script src="../js/info.js"></script>
-       
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+
+            <label for="pill_name">Pill Name:</label>
+            <input type="text" id="pill_name" name="pill_name" required>
+
+            <label for="dosage">Dosage:</label>
+            <input type="text" id="dosage" name="dosage" required>
+
+            <label for="start_date">Start Date:</label>
+            <input type="date" id="start_date" name="start_date" required>
+
+            <label for="end_date">End Date:</label>
+            <input type="date" id="end_date" name="end_date" required>
+
+            <label for="reminder_time">Set Time:</label>
+            <input type="time" id="reminder_time" name="reminder_time" required>
+
+            <label>
+                <input type="checkbox" id="reminder" name="reminder"> Set Reminder
+            </label>
+
+            <input type="button" value="Submit" onclick="submitForm()">
+        </div>
+    </form>
+
+    <!-- <script src="../js/info.js"></script> -->
 </body>
 
 </html>
