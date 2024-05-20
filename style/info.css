@@ -66,3 +66,6 @@ input[type="button"]:hover {
 .form-group1{
     width:  610px;
 }
+.form{
+    background-color: rgba(0, 55, 128, 0.454);
+}
