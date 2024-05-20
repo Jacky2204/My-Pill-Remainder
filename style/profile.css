@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./../image/medicine.jpg') no-repeat center center fixed;
+    background-size: 100vw 80vh;
+    background-position-y: top;
+
+}
+
+@media screen and (max-width:800px) {
+    body {
+        overflow-x: scroll;
+    }
+
+    .main {
+        width: 100vw !important;
+    }
+
+    .box1 {
+        width: 60vw !important;
+    }
+
+    .image {
+        margin: 10px auto !important;
+        display: block;
+        margin: auto;
+        height: 20vh;
+        width: 50vw;
+        margin-left: 80px !important;
+    }
+
+    img {
+        height: 30vh;
+        width: 40vw;
+        margin: auto;
+    }
+
+    .main-info {
+
+        margin: 170px auto !important;
+    }
+
+    .main-info button {
+        margin: 5px !important;
+    }
+
+    .box2 {
+        width: 100vw !important;
+        margin-bottom: 50px !important;
+    }
+
+    span {
+        text-align: start;
+
+    }
+
+    .box2 p {
+        margin: 20px 10px !important;
+    }
+}
+
+
+
+.head {
+    min-height: 200px;
+    width: 90vw;
+    /* border: 3px solid black; */
+    margin: auto;
+    margin-top: 150px !important;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-content: center center;
+}
+
+
+
+.info {
+    min-height: 200px;
+    width: 630px;
+    /* border: 1px solid black; */
+    margin: auto 100px;
+
+}
+
+.info h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: bolder;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+.main {
+    min-height: 700px;
+    width: 90vw;
+    /* border: 3px solid black; */
+    margin: auto;
+    margin-top: 40px !important;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.box1 {
+    height: 35vh;
+    width: 20vw;
+    border: 3px solid black;
+    background-color: azure;
+    position: relative;
+    margin: 50px;
+    align-content: center center;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    height: 17vh;
+    width: 10vw;
+    /* border: 1px solid black; */
+    align-content: center;
+    position: absolute;
+    display: block;
+    margin: auto 70px;
+
+
+
+}
+
+img {
+    height: 15vh;
+    width: 8vw;
+    border-radius: 50%;
+    /* border: 3px solid black; */
+    padding: 5px;
+    margin: auto;
+    display: block;
+    background-color: rgb(0, 200, 255);
+    /* position: absolute; */
+
+}
+
+.main-info {
+    height: 17vh;
+    width: 14vw;
+    /* border: 1px solid black; */
+    margin: 140px auto;
+    
+    align-items: center;
+}
+
+.main-info p {
+    margin-left: 15px;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 24px;
+    display: block;
+    margin: auto;
+}
+
+.main-info button {
+    height: 25px;
+    align-self: center !important;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+.box2 {
+    min-height: 500px;
+    width: 60vw;
+    border: 3px solid black;
+    background-color: azure;
+
+}
+
+.box-head {
+    /* border: 1px solid black; */
+    min-height: 40px;
+    width: 45vw;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.box-head h1 {
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.box-head button {
+    height: 30px;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.box2 p {
+    margin: 20px 60px;
+    font-size: 26px;
+    line-height: 25px;
+    font-weight: 600;
+    min-height: 25px;
+    /* border: 1px solid black; */
+}
+
+#name {
+    margin-top: 30px;
+}
+
+span {
+    font-weight: 400;
+    font-style: italic;
+}

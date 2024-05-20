@@ -1,15 +1,18 @@
-localStorage.clear()    
+// localStorage.clear()    
 
 function sub() {
   let j = document.getElementById("pass").value;
   let k = document.getElementById("cpass").value;
 
   if (k == j) {
-    let a = document.getElementById("fnmae").value;
+    let a = document.getElementById("fname").value;
     localStorage.setItem("fname", `${a}`);
 
-    let b = document.getElementById("lnmae").value;
+    let b = document.getElementById("lname").value;
     localStorage.setItem("lname", `${b}`);
+
+    let l = document.getElementById("user").value;
+    localStorage.setItem("user", `${l}`);
 
     let c = document.getElementById("email").value;
     localStorage.setItem("email", `${c}`);
