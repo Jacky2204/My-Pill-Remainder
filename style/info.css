@@ -60,12 +60,17 @@ input[type="button"] {
 input[type="button"]:hover {
     background-color: #0e49bf;
 }
+
+@media (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+}
 .form-group{
     margin-right: 10px;
 }
-.form-group1{
-    width:  610px;
-}
+
+/* container */
 .form{
     background-color: rgba(0, 55, 128, 0.454);
 }
