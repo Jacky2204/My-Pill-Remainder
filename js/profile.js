@@ -19,6 +19,9 @@
     //   let x = localStorage.getItem("pic").value;
     //   document.getElementById("images").src =`${x}`;
 
+    // document.getElementById("rem").classList.remove(".block")
+    // document.getElementById("para").classList.add(".none")
+
     let a = localStorage.getItem("fname");
     let b = localStorage.getItem("lname");
     document.getElementById("names").innerText = `${a} ${b}`;
@@ -58,4 +61,7 @@
 
 function remainder(){
   document.getElementById("head").innerText="Remainder"
+  // document.getElementById("rem").classList.add(".block")
+  // document.getElementById("para").classList.remove(".none")
+ 
 }
