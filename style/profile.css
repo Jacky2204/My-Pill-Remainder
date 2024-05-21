@@ -60,6 +60,81 @@ body {
 }
 
 
+/*navbarI*/
+:root {
+    --color-primary: #133d75;
+    --color-white: #161010;
+    --color-black:rgb(41, 149, 192);    
+    --color-black-1: #dfe9e9;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  .abc{
+    background-color:#E0E1DD;
+  }
+  
+  .logo {
+    color: var(--color-white);
+    font-size: 30px;
+  }
+  
+  .logo span {
+    color: var(--color-primary);
+  }
+  .menu-bar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+
+  
+    position: fixed;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-bar ul li {
+    /* width: 120px; */
+    padding: 10px 30px;
+    /* text-align: center; */
+  
+    position: relative;
+  }
+  
+  .menu-bar ul li a {
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+  
+    transition: all 0.3s;
+  }
+  
+  .menu-bar ul li a:hover {
+    color: var(--color-primary);
+  }
+  
+  .fas {
+      float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  
+
+
 
 .head {
     min-height: 200px;
@@ -150,7 +225,7 @@ img {
     width: 14vw;
     /* border: 1px solid black; */
     margin: 140px auto;
-    
+
     align-items: center;
 }
 
@@ -165,6 +240,7 @@ img {
 
 .main-info button {
     height: 25px;
+    width: 50px;
     align-self: center !important;
     cursor: pointer;
     border-radius: 5px;
@@ -221,3 +297,11 @@ span {
     font-weight: 400;
     font-style: italic;
 }
+
+/* .none {
+    display: none;
+}
+
+.block{
+    display: block;
+} */
