@@ -1,4 +1,4 @@
-/*reminder
+
 const currentTime = document.querySelector("h1"),
 content = document.querySelector(".content"),
 selectMenu = document.querySelectorAll("select"),
@@ -97,5 +97,3 @@ allStar.forEach((item, idx)=> {
 })
 
 
-
-*/
